@@ -3,8 +3,8 @@ import numpy as np
 import pandas as pd
 from sklearn.cluster import KMeans
 
-img = cv2.imread(r"C:\Users\haziq kacak\Pictures\1.jpg")
-img3 = cv2.imread(r"C:\Users\haziq kacak\Desktop\download.jpg")
+img = cv2.imread(r"")
+img3 = cv2.imread(r"")
 print (type(img))
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 ret, thresh = cv2.threshold(gray, 135,255,cv2.THRESH_BINARY_INV)
